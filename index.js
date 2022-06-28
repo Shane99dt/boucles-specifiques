@@ -43,63 +43,51 @@
 
 // Ex 5
 
-const cakes = [
-	{
-		name: "cake",
-		flavor: "vanilla",
-		status: "available"
-	},
-	{
-		name: "brownie",
-		flavor: "chocolate",
-		status: "available"
-	},
-	{
-		name: "pie",
-		flavor: "strawberry",
-		status: "available"
-	},
-	{
-		name: "muffin",
-		flavor: "pistachio",
-		status: "available"
-	},
-	{
-		name: "donut",
-		flavor: "chocolate",
-		status: "available"
-	},
-]
+// const cakes = [
+// 	{
+// 		name: "cake",
+// 		flavor: "vanilla",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "brownie",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "pie",
+// 		flavor: "strawberry",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "muffin",
+// 		flavor: "pistachio",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "donut",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// ]
 
-const cakesSoldOut = cakes.filter(
-  cake => (cake.name == "donut" || cake.name == "brownie")
-).map(
-  stat => {
-    const obj = Object.assign({}, stat)
-
-  }
-)
-
-console.log(cakesSoldOut)
-
-
-
-// return schools.map(item => {
-//   var temp = Object.assign({}, item);
-//   if (temp.name === oldName) {
-//       temp.name = name;
+// const cakesSoldOut = cakes.filter(
+//   cake => (cake.name == "donut" || cake.name == "brownie")
+// ).map(
+//   stat => {
+//     return { ...stat, status: "sold out !"}
 //   }
-//   return temp;
-// });
+// )
 
+// console.log(cakesSoldOut)
 
 // Ex 6
 
-const pieDisplay = cakes.filter(
-  (cake, i) => (cake.name == "pie")
-)
+// const pieDisplay = cakes.filter(
+//   (cake, i) => (cake.name == "pie")
+// )
 
-console.log(pieDisplay)
+// console.log(pieDisplay)
 
 // need to display the element
 
@@ -124,3 +112,15 @@ console.log(pieDisplay)
 //   })
 // }
 // )
+
+
+// Ex 9
+
+// const giveMyNumbers = (arr) => {
+//   const nums = arr.filter( num => typeof(num) == "number")
+//   return nums
+// }
+
+// let inputarr = [12, 55, "hello", true, { isStudent: false }, 3]
+
+// console.log(giveMyNumbers(inputarr))
