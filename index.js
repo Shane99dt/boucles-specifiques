@@ -118,13 +118,30 @@ array3.forEach((item1, i) => {
   //     }
   //   }
   // })
+  let inside = ""
+  array3.forEach((item2, j) => {
+    if(j % 2 === 0 ){
+      if( i % 2 === 0){
+        inside += "[ ]"
+      }else{
+        inside += "[x]"
+      }
+    }else{
+      if( i % 2 === 0){
+        inside += "[x]"
+      }else{
+        inside += "[ ]"
+      }
+    }
+  })
+  console.log(inside)
 
 
-  if (i % 2 === 0){
-    console.log("[ ]","[x]","[ ]","[x]","[ ]","[x]","[ ]","[x]");
-  }else {
-    console.log("[x]","[ ]","[x]","[ ]","[x]","[ ]","[x]","[ ]");
-  }
+  // if (i % 2 === 0){
+  //   console.log("[ ]","[x]","[ ]","[x]","[ ]","[x]","[ ]","[x]");
+  // }else {
+  //   console.log("[x]","[ ]","[x]","[ ]","[x]","[ ]","[x]","[ ]");
+  // }
 })
 
 // Ex 9
