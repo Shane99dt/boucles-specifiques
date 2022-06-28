@@ -107,19 +107,9 @@ const array3 = [1, 2, 3, 4, 5, 6, 7, 8]
 
 array3.forEach((item1, i) => {
 
-  // array3.forEach((item2, j) => {
-
-  //   if( j % 2 == 0 && i % 2 ==0){
-  //     console.log("[ ]")
-  //   }else{
-  //     console.log("[x]")
-  //     if(i % 2 != 0 && j % 2 != 0){
-  //       console.log("[ ]")
-  //     }
-  //   }
-  // })
   let inside = ""
   array3.forEach((item2, j) => {
+
     if(j % 2 === 0 ){
       if( i % 2 === 0){
         inside += "[ ]"
@@ -136,12 +126,6 @@ array3.forEach((item1, i) => {
   })
   console.log(inside)
 
-
-  // if (i % 2 === 0){
-  //   console.log("[ ]","[x]","[ ]","[x]","[ ]","[x]","[ ]","[x]");
-  // }else {
-  //   console.log("[x]","[ ]","[x]","[ ]","[x]","[ ]","[x]","[ ]");
-  // }
 })
 
 // Ex 9
