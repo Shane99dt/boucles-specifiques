@@ -89,18 +89,16 @@
 
 // console.log(pieDisplay)
 
-// need to display the element
-
-
 // Ex 7
 
+// todo
 
 
 
 
 
 // Ex 8
-
+// todo
 // const array3 = [1, 2]
 
 
